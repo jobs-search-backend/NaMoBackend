@@ -7,6 +7,8 @@ import jakarta.persistence.Id;
 
 @Entity
 public class User {
+//    Write name here
+    private tushar = 'Tushar'
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
